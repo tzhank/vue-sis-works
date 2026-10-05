@@ -99,14 +99,12 @@ export default {
     }
   },
   watch: {
-    // сохраняем задачи в браузер при каждом изменении
     tasks: {
       handler(newTasks) {
         localStorage.setItem('tasks', JSON.stringify(newTasks))
       },
       deep: true
     },
-    // следим за полем поиска
     search(newValue) {
       console.log('Search changed:', newValue)
     }
