@@ -1,0 +1,8 @@
+{
+  "name": "sis2-task-manager",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": { "dev": "vite", "build": "vite build" },
+  "dependencies": { "vue": "^2.7.16" },
+  "devDependencies": { "@vitejs/plugin-vue2": "^2.3.1", "vite": "^4.5.0" }
+}
